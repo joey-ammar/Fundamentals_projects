@@ -19,7 +19,7 @@ const Birthday = () => {
         <div className="container">
           {people ? (
             <div>
-              <h3>5 Birthdays Today: </h3>
+              <h3> {people.length} Birthdays Today: </h3>
               <div className="person">
                 {people.map((person) => {
                   return <People key={person.id} {...person} />;
