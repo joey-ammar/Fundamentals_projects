@@ -1,5 +1,7 @@
 /* ============= PROJECT CSS =============== */
-
+main {
+  padding: 5rem;
+}
 .main {
   width: 90vw;
   max-width: var(--max-width);
