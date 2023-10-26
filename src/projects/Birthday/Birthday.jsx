@@ -31,7 +31,7 @@ const Birthday = () => {
             </div>
           ) : (
             <div>
-              <h3>0 birthdays Today :</h3>
+              <h3>{people.length} birthdays Today :</h3>
               <button onClick={resetBtn} className="btn">
                 check
               </button>
