@@ -8,10 +8,11 @@ import Menu from "./projects/Menu/Menu";
 import Tabs from "./projects/Tabs/Tabs";
 import Slider from "./projects/Slider/Slider";
 import SliderLib from "./projects/SliderLibrary/SliderLib";
+import Lorem from "./projects/Lorem/Lorem";
 function App() {
   return (
     <>
-      <SliderLib />
+      <Lorem />
     </>
   );
 }
