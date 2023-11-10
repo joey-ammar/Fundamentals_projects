@@ -10,10 +10,12 @@ import Slider from "./projects/Slider/Slider";
 import SliderLib from "./projects/SliderLibrary/SliderLib";
 import Lorem from "./projects/Lorem/Lorem";
 import CG from "./projects/ColorGenerator/CG";
+import GroceryBud from "./projects/GroceryBud/GroceryBud";
+import Navbar from "./projects/Navbar/Navbar";
 function App() {
   return (
     <>
-      <CG />
+      <Navbar />
     </>
   );
 }
