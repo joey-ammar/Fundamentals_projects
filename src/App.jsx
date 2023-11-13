@@ -12,10 +12,11 @@ import Lorem from "./projects/Lorem/Lorem";
 import CG from "./projects/ColorGenerator/CG";
 import GroceryBud from "./projects/GroceryBud/GroceryBud";
 import Navbar from "./projects/Navbar/Navbar";
+import SideNav from "./projects/SideNav/SideNav";
 function App() {
   return (
     <>
-      <Navbar />
+      <SideNav />
     </>
   );
 }
